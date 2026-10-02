@@ -51,3 +51,6 @@ footer{padding:55px 0 25px;background:#17111e;color:#fff}.foot{display:grid;grid
 
 /* Eligibility interaction refinements */
 .eligibility-choice.selected{border-color:var(--p);background:color-mix(in srgb,var(--p) 13%,var(--card));box-shadow:0 0 0 1px color-mix(in srgb,var(--p) 35%,transparent)}.eligibility-result .check-actions .btn:not(.primary){color:var(--ink);background:var(--card)}[data-theme="dark"] .eligibility-result .check-actions .btn:not(.primary){color:#f7f2fb;background:color-mix(in srgb,var(--card) 92%,white 8%);border-color:color-mix(in srgb,var(--line) 75%,white 25%)}
+
+/* Compact mobile quick navigation */
+@media(max-width:820px){#nav.open>a{padding:13px 0;margin:0;font-size:17px;line-height:1.25}#nav.open .appearance{margin-top:14px;padding-top:18px}#nav.open{gap:0}}
