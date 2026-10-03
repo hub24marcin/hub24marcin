@@ -71,3 +71,6 @@ body.hub-panel-active .floating-topics{display:none!important}
 
 /* Mobile Connect & Support scroll clearance */
 @media(max-width:820px){#links.permanent-links{scroll-margin-top:82px;padding-bottom:calc(72px + env(safe-area-inset-bottom))}.floating-topics.links-in-view{opacity:0!important;pointer-events:none!important;transform:translateY(8px)!important}}
+
+/* Compact Connect & Support on phones */
+@media(max-width:520px){#links.permanent-links{padding-top:28px;padding-bottom:calc(96px + env(safe-area-inset-bottom));scroll-margin-top:76px}.permanent-links .center{margin-bottom:16px}.permanent-links .eyebrow{margin-bottom:8px}.permanent-links h2{font-size:38px;margin-bottom:10px}.permanent-links .intro{font-size:16px;line-height:1.45}.permanent-links .linkcards{gap:10px;margin-top:20px}.permanent-links .linkcards a{grid-template-columns:48px minmax(0,1fr) 24px;gap:12px;padding:15px 16px;border-radius:18px}.permanent-links .link-icon{width:48px;height:48px;border-radius:12px}.permanent-links .linkcards a>span:nth-child(2)>b{font-size:16px;line-height:1.2}.permanent-links .linkcards a>span:nth-child(2)>small{font-size:12px;line-height:1.35}.permanent-links .card-arrow{font-size:18px}}
