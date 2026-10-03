@@ -54,3 +54,6 @@ footer{padding:55px 0 25px;background:#17111e;color:#fff}.foot{display:grid;grid
 
 /* Compact mobile quick navigation */
 @media(max-width:820px){#nav.open>a{padding:13px 0;margin:0;font-size:17px;line-height:1.25}#nav.open .appearance{margin-top:14px;padding-top:18px}#nav.open{gap:0}}
+
+/* Compact CV guidance */
+.cv-compact{max-width:720px;margin-left:auto;margin-right:auto}.cv-essentials{display:grid;gap:10px;margin:18px 0}.cv-essentials h3{margin:0 0 4px}.cv-essential{display:flex;align-items:center;gap:12px;padding:14px 16px;border:1px solid var(--line);border-radius:14px;background:var(--card);font-weight:800}.cv-essential i{display:grid;place-items:center;width:25px;height:25px;flex:0 0 25px;border-radius:7px;background:var(--p);color:white;font-style:normal;font-weight:900}.cv-support-cta{margin-top:4px}.hub-panel-open~.floating-topics{display:none!important}@media(max-width:520px){.cv-support-cta{width:100%;text-align:center}}
