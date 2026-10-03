@@ -65,3 +65,6 @@ body.hub-panel-active .floating-topics{display:none!important}
 
 /* Strong visual distinction for after-referral choices */
 .after-referral-actions .stop-choice{color:var(--ink);background:color-mix(in srgb,#d64545 7%,var(--card));border:2px solid color-mix(in srgb,#d64545 58%,var(--line));font-weight:900}.after-referral-actions .stop-choice:hover{background:color-mix(in srgb,#d64545 12%,var(--card));border-color:#d64545}[data-theme="dark"] .after-referral-actions .stop-choice{color:#fff;background:rgba(214,69,69,.12);border-color:rgba(255,116,116,.7)}
+
+/* Permanent Connect & Support closing section */
+#links.permanent-links{display:block}.permanent-links{border-top:1px solid var(--line);padding:56px 0 60px}.permanent-links .center{max-width:680px;margin:0 auto 26px}.permanent-links .intro{margin-bottom:0}@media(max-width:520px){.permanent-links{padding:42px 0 48px}.permanent-links .center{margin-bottom:22px}}
