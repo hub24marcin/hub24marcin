@@ -62,3 +62,6 @@ body.hub-panel-active .floating-topics{display:none!important}
 
 /* After-referral safety gate */
 .after-referral{max-width:760px;margin-left:auto;margin-right:auto}.after-referral-gate{text-align:center;padding:24px;border:1px solid var(--line);border-radius:20px;background:var(--card)}.after-referral-gate h2{margin:8px auto 20px;max-width:620px}.after-referral-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}.after-referral-actions button{cursor:pointer}.after-referral-result{text-align:left;margin-top:16px}.after-referral-result:empty{display:none}.after-referral-result .notice{margin:0}.after-referral-result h3{margin-top:0}@media(max-width:560px){.after-referral-gate{padding:20px 16px}.after-referral-actions{grid-template-columns:1fr}.after-referral-actions .btn{width:100%}}
+
+/* Strong visual distinction for after-referral choices */
+.after-referral-actions .stop-choice{color:var(--ink);background:color-mix(in srgb,#d64545 7%,var(--card));border:2px solid color-mix(in srgb,#d64545 58%,var(--line));font-weight:900}.after-referral-actions .stop-choice:hover{background:color-mix(in srgb,#d64545 12%,var(--card));border-color:#d64545}[data-theme="dark"] .after-referral-actions .stop-choice{color:#fff;background:rgba(214,69,69,.12);border-color:rgba(255,116,116,.7)}
